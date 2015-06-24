@@ -1,0 +1,19 @@
+<resources>
+
+    <string-array name="randomColorBgArray">
+        <item>#6CCECB</item>
+        <item>#B76EB8</item>
+        <item>#8EDC9D</item>
+        <item>#EF7126</item>
+        <item>#f44336</item>
+        <item>#e91e63</item>
+        <item>#9c27b0</item>
+        <item>#3f51b5</item>
+        <item>#2196f3</item>
+        <item>#03a9f4</item>
+        <item>#4caf50</item>
+        <item>#607d8b</item>
+        <item>#000000</item>
+    </string-array>
+
+</resources>

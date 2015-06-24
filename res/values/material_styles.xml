@@ -1,0 +1,88 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    These are the style written according to Material design guide line for 
+    a list item, this is not finalized version, We need to check for different
+     devices and for different screens then only we can finalize this one.
+     
+     Note: Before editing this style make sure that does not destrub other layouts.  
+    -->
+    <style name="list_item_parent">
+        <item name="android:paddingLeft">@dimen/list_item_margin</item>
+        <item name="android:paddingRight">@dimen/list_item_margin</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+    </style>
+
+    <style name="list_item_icon">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">@dimen/list_item_icon_size</item>
+        <item name="android:layout_height">@dimen/list_item_icon_size</item>
+        <item name="android:background">@drawable/contact_fallback_circle</item>
+    </style>
+
+    <style name="list_item_parent_single">
+        <item name="android:paddingLeft">@dimen/list_item_margin</item>
+        <item name="android:paddingRight">@dimen/list_item_margin</item>
+        <item name="android:layout_height">@dimen/list_item_height_single</item>
+    </style>
+
+    <style name="list_item_text">
+        <item name="android:paddingBottom">@dimen/list_item_padding</item>
+        <item name="android:paddingLeft">56dp</item>
+        <item name="android:paddingTop">@dimen/list_item_padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="list_item_text_single">
+        <item name="android:paddingBottom">@dimen/list_item_padding</item>
+        <item name="android:paddingLeft">56dp</item>
+        <item name="android:paddingTop">@dimen/list_item_padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="list_item_icon_single">
+        <item name="android:layout_width">@dimen/list_item_icon_size</item>
+        <item name="android:layout_height">@dimen/list_item_icon_size</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/contact_fallback_circle</item>
+    </style>
+
+    <style name="list_item_subheader">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_sub_title</item>
+        <item name="android:layout_marginLeft">@dimen/layout_start_margin</item>
+        <item name="android:layout_marginRight">@dimen/layout_end_margin</item>
+    </style>
+
+    <style name="list_item_last_child">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="list_item_last_child_single">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <!-- For Layout -->
+    <style name="parent_layout">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+    </style>
+
+    <style name="layout_horizontal_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Action Bar Page</string>
+    <string name="app_name">cmerge</string>
+    <string name="select_country">Select Country</string>
+    <string name="default_country">India</string>
+    <string name="image">Image</string>
+    <string name="picture">Picture</string>
+    <string name="video">Video</string>
+    <string name="close">Close</string>
+    <string name="recipients">Choose Contacts</string>
+    <string name="missingcontacts">No Contacts</string>
+    <string name="missinggroups">No Groups</string>
+    <string name="add_choice">Add Choice</string>
+    <string name="add_recipients">Recipients</string>
+    <string name="choice_list">Choices</string>
+    <string name="finish">Finish</string>
+    <string name="choice">Add Choice</string>
+    <string name="done">Done</string>
+    <string name="confirm_code">Confirmation Code</string>
+    <string name="react">Re-Activate</string>
+    <string name="confirm">Confirm</string>
+    <string name="skip">Skip</string>
+    <string name="default_choice">Default Choice</string>
+    <string name="select">Select</string>
+    <string name="vote">Vote</string>
+    <string name="date">Choose the finishing date &amp; time</string>
+    <string name="date_picker_dialog_title">Set finishing date and time</string>
+    <string name="time">Time</string>
+    <string name="empty"></string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="preview">Preview</string>
+    <string name="select_mobile">Select Mobile Number</string>
+    <string name="activate">Activate</string>
+    <string name="share">Share</string>
+    <string name="pollresmsg">Thank you for taking this poll.</string>
+    <string name="poll_summary_error">Error loading the content, try again later.</string>
+    <string name="share_result_error">Unable to share the Result</string>
+    <string name="yourchoice">Your choice is </string>
+    <string name="groups">Groups</string>
+    <string name="user_preferences">User Preferences</string>
+    <string name="pref_name">Name</string>
+    <string name="pref_name_value">Name Value</string>
+    <string name="pref_email">Email</string>
+    <string name="pref_email_value">Email Value</string>
+    <string name="pref_contact_no">Mobile</string>
+    <string name="pref_contact_value">Mobile Number</string>
+    <string name="colon">:</string>
+    <string name="country_code">Country Code</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="Group_name">Group Name</string>
+    <string name="enter_grp_name">Enter Group Name</string>
+    <string name="search_contact">Search Contacts</string>
+    <string name="proceed">Save</string>
+    <string name="next">Next</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_num">9999999999</string>
+    <string name="created_by">Created By</string>
+    <string name="vote_by">Ends on</string>
+    <string name="vote_archived_on">Ended on</string>
+    <string name="about_contents">My contents are coming soon</string>
+    <string name="company_name">\u00a9 2015 Fork Technologies Pvt. Ltd.</string>
+    <string name="rights">All Rights Reserved</string>
+    <string name="project_name">EPOLL/SERVEY TOOL</string>
+    <string name="version_name">Version 1.0</string>
+    <string name="select_contacts">Contacts</string>
+    <string name="select_groups">Groups</string>
+    <string name="clear">Clear</string>
+    <string name="edit">Edit</string>
+    <string name="search_groups">Search Groups</string>
+    <string name="save">Save</string>
+    <string name="internet_connected">Internet Connected</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="about">About</string>
+    <string name="search">Search</string>
+    <string name="poll_result_title">Summary</string>
+    <string name="empty_list">Spread Your Awesomeness.. \n Create an ePoll..!!</string>
+    <string name="group_members">Group Members</string>
+    <string name="add_recipients_title">Recipients</string>
+    <string name="menu_add">Add More Recipients</string>
+    <string name="menu_extend_poll">Extend Deadline</string>
+    <string name="menu_finish_poll">Finish Poll</string>
+    <string name="upcoming_poll">Open</string>
+    <string name="created_poll">Created</string>
+    <string name="social_poll">Closed</string>
+    <string name="deadline_positive">Set</string>
+    <string name="deadline_date_days">Days</string>
+    <string name="deadline_date_day">Day</string>
+    <string name="deadline_date_hour">Hour</string>
+    <string name="deadline_date_expired">Expired</string>
+    <string name="deadline_date_close">X</string>
+    <string name="itemdeleted">Choice 1 deleted</string>
+    <string name="taptoundo">Tap to undo</string>
+    <string name="choose_template">Choose Template</string>
+    <string name="manage_template">Manage Templates</string>
+    <string name="pref_basic_details_title">User Information</string>
+    <string name="pref_tab_setting_summary">Set default tab</string>
+    <string name="pref_tab_setting">Default tab in home screen</string>
+    <string name="pref_contact">Contact Number</string>
+    <string name="pref_enter_email">Enter your email</string>
+    <string name="pref_enter_name">Enter your name</string>
+    <string name="templates">Templates</string>
+    <string name="pref_settings_title">Settings</string>
+    <string name="pref_visualization_title">Default graph in Poll Summary</string>
+    <string name="pref_visualization_summary">Set default graph visualization</string>
+    <string name="sample_text">Sample text</string>
+    <string name="sample_s">S</string>
+
+    <!-- Activate page -->
+    <string name="select_account">Select Email Account</string>
+    <string name="enter_valid_cc">Enter valid country code</string>
+    <string name="enter_valid_mnumber">Enter Valid mobile number</string>
+    <string name="enter_valid_email">Enter valid Email</string>
+    <string name="error_server_buggy">Oops, Server sent buggy response..!!</string>
+    <string name="error_server_down_dev_mode">Oops, Our server seems to be down..!!! Moving on.. Dev mode enabled&#8230;</string>
+    <string name="error_server_down">Oops, Our server seems to be down..!!!</string>
+    <string name="search_country">Search Country</string>
+
+    <!-- AddChoiceActivity -->
+    <string name="warn_min_choices">Please provide a minimum of 2 choice options</string>
+    <string name="warn_max_choices">A maximum of 4 choice options is allowed</string>
+    <string name="error_enter_choice">Enter choice</string>
+
+    <!-- Confirm Page -->
+    <string name="error_invalid_code">Invalid code</string>
+    <string name="error_enter_code">Please enter the code</string>
+
+    <!-- ModePollResultActivity -->
+    <string name="error_poll_result">Unable to retrieve the poll results from server</string>
+    <string name="no_internet_connection_result">Now showing cached result last updated at %1$s, connect to internet to get the latest.</string>
+
+    <!-- NewPollActivity -->
+    <string name="enter_dead_line">Please enter Deadline Date and time</string>
+    <string name="error_enter_question">Enter question</string>
+
+    <!-- PollListFragment -->
+    <string name="poll_archived">Poll Archived</string>
+
+    <!-- ModePollResultActivity -->
+    <string name="you_selected"> \n You selected : </string>
+    <string name="you_not_voted"> \n You did not vote.</string>
+
+    <!-- TakePollActivity -->
+    <string name="select_option">Select an option</string>
+
+    <!-- UndoFragment -->
+    <string name="choice_n_deleted">Choice %1$s is deleted</string>
+
+    <!-- UserPreferenceFragment -->
+    <string name="invalid_email">Invalid email id</string>
+
+    <!-- AddGroupActivity -->
+    <string name="add_group_contact_error">Please add atleast one contact to the group</string>
+    <string name="add_group_name_error">Please enter the group name</string>
+    <!--  -->
+    <plurals name="hour">
+        <item quantity="one">Hour</item>
+        <item quantity="other">Hours</item>
+    </plurals>
+    <plurals name="mins">
+        <item quantity="one">Min</item>
+        <item quantity="other">Mins</item>
+    </plurals>
+
+    <string name="manage_templates_add_new">New Template</string>
+    <string name="template_name">Template Name</string>
+    <string name="template_name_set">Proceed</string>
+    <string name="template_name_title">Set New template name</string>
+    <string name="menu_rename_template">Rename</string>
+    <string name="menu_delete_template">Delete</string>
+    <string name="menu_selected_title">%1$s Selected</string>
+
+    <plurals name="menu_delete_confirmations">
+        <item quantity="one">Are you sure to delete %1$s item?</item>
+        <item quantity="other">Are you sure to delete %1$s items?</item>
+    </plurals>
+
+    <string name="visualization_options">Change View</string>
+    <string name="set_default_visualization_option">Set Default View</string>
+    <string name="change_chart">Change</string>
+
+    <!-- Content Description -->
+    <string name="add_event">Add event</string>
+
+    <!-- PollReminder -->
+    <string name="default_calendar_event">Poll Closing day for \n</string>
+    <string name="add_to_contacts">Add to Contacts?</string>
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_contact">Add Contact</string>
+
+</resources>

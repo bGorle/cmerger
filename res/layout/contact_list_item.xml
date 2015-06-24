@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_item_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/rl_contact_fallback"
+        style="@style/list_item_icon" >
+
+        <ImageView
+            android:id="@+id/contact_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/empty" />
+
+        <TextView
+            android:id="@+id/tv_contact_image_fallback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/sample_s"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/list_item_text" >
+
+        <TextView
+            android:id="@+id/contactname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/contact_name"
+            android:textColor="#000"
+            android:textIsSelectable="false"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contactno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactname"
+            android:singleLine="true"
+            android:text="@string/contact_num"
+            android:textColor="#2689e0"
+            android:textIsSelectable="false" />
+
+        <CheckBox
+            android:id="@+id/contactcheck"
+            style="@style/list_item_last_child"
+            android:layout_width="wrap_content"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

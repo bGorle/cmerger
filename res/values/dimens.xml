@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- POLL list item -->
+    <dimen name="poll_list_item_corner">5dp</dimen>
+    <dimen name="layout_start_margin">16dp</dimen>
+    <dimen name="layout_end_margin">16dp</dimen>
+
+    <!-- List item -->
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="list_item_icon_size">40dp</dimen>
+    <dimen name="list_item_sub_title">48dp</dimen>
+    <dimen name="list_item_height_single">56dp</dimen>
+    <dimen name="list_item_margin_single">8dp</dimen>
+    <dimen name="list_item_divider_height">8dp</dimen>
+    <dimen name="list_item_space_bet_content_areas">8dp</dimen>
+    <dimen name="list_item_padding">20dp</dimen>
+    <!-- Toolbar -->
+    <dimen name="first_keyline">16dp</dimen>
+    <dimen name="second_keyline">72dp</dimen>
+    <dimen name="toolbar_h_padding">4dp</dimen>
+
+</resources>
